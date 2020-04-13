@@ -28,33 +28,9 @@
     "captionColor": "#515151",
     "waveColor": "#00b4ff"
   },
-    "CU Daily Journal (Facebook/YouTube)": {
-    "captionAlign": "right",
-    "captionTop": 128,
-    "captionRight": 1220,
-    "captionLeft": 640,
-    "captionFont": "65px 'Montserrat'",
-    "backgroundImage": "1280x720-cu-dj-audiogram.png",
-    "foregroundColor": "#fc0",
-    "waveBottom": 660,
-    "waveTop": 320,
-    "maxDuration": 600
-   },
-   "CU Bonus Cast (Facebook/YouTube)": {
-    "captionAlign": "center",
-    "captionTop": 444,
-    "captionRight": 1180,
-    "captionLeft": 100,
+    
+  "The Diced Life": {
     "captionFont": "50px 'Montserrat'",
-    "backgroundImage": "1280x720-cu-bonus-audiogram.png",
-    "foregroundColor": "#fc0",
-    "waveBottom": 670,
-    "waveTop": 535,
-    "waveColor": "#000",
-    "captionColor": "#fff",
-    "maxDuration": 3600
-},
-  "Background image with top right text": {
     "captionAlign": "right",
     "captionTop": 60,
     "captionRight": 1220,
