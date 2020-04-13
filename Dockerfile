@@ -15,7 +15,7 @@ USER audiogram
 WORKDIR /home/audiogram
 
 # Clone repo
-RUN git clone git@github.com:nypublicradio/audiogram.git
+RUN git clone https://github.com/wolfman2g1/audiogram.git
 WORKDIR /home/audiogram/audiogram
 
 # Install dependencies
