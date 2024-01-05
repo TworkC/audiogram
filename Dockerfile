@@ -19,12 +19,7 @@ RUN apt-get --yes install git \
 RUN update-alternatives --install /usr/bin/node node $(which nodejs) 50
 
 # Non-privileged user
-ARG UID=1000
-RUN useradd --create-home \
-            --no-log-init \
-            --shell /bin/false \
-            --uid $UID \
-            audiogram
+RUN useradd -m audiogram
 USER audiogram
 WORKDIR /home/audiogram
 
