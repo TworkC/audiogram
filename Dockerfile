@@ -30,5 +30,5 @@ WORKDIR /home/audiogram/audiogram
 #VOLUME /home/audiogram/audiogram
 
 # Install dependencies
-RUN npm install -g npm@latest
+RUN npm install -g node-gyp
 CMD npm start
