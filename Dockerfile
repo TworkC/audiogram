@@ -19,8 +19,6 @@ RUN git clone https://github.com/wolfman2g1/audiogram.git
 WORKDIR /home/audiogram/audiogram
 
 # Install dependencies
-COPY package.json .
-COPY package-lock.json .
 RUN npm install
 
 ENTRYPOINT npm start
