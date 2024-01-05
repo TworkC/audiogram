@@ -30,5 +30,5 @@ WORKDIR /home/audiogram/audiogram
 #VOLUME /home/audiogram/audiogram
 
 # Install dependencies
-RUN npm install
+RUN npm install -g npm@latest
 CMD npm start
