@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:23.10
 
 # Install dependencies
 RUN apt-get --yes update && \
